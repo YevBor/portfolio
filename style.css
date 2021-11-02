@@ -1,0 +1,95 @@
+/* bitter-regular - latin */
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/bitter-v19-latin-500.woff2') format('woff2') /* IE9 Compat Modes */
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap'); */
+
+.page{
+    width: 78vw;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.header{
+    margin-top: 1%;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.header__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__button-items{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    
+    
+}
+.header__button-item{
+    text-decoration: none;
+    padding-right: 48px;
+    color: #0F1B61;
+    
+}
+.header__button-item_padding{
+    padding-right: 10px;
+}
+
+
+.intro{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.intro__content-title{
+    font-size: 80px;
+    line-height: 96px;
+    font-weight: normal;
+    font-family: 'Bitter', serif;
+}
+.intro__content-subtitle{
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.intro__conten-text{
+    font-size:20px;
+    line-height: 20px;
+}
+.intro__content-button{
+    width: 507px;
+    height: 78px;
+    background-color: #5D5FEF;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 0px 8px 12px rgba(93, 95, 239, 0.12);
+    
+    
+}
+.intro__content-button:hover{
+    background: linear-gradient(173.83deg, #5D5FEF 45.97%, rgba(112, 114, 247, 0.8) 101.07%);
+}
+.intro__content-button:active{
+    background: white;
+    color: #5D5FEF;
+}
+
+.intro__avatar{
+    padding-left: 10px;
+    padding-top: 5%;
+}
