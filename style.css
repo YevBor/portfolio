@@ -5,12 +5,21 @@
     font-weight: 500;
     src: url('../fonts/bitter-v19-latin-500.woff2') format('woff2') /* IE9 Compat Modes */
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap'); */
+/* source-sans-pro-regular - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-sans-pro-v14-latin-regular.woff2') format('woff2') /* IE9 Compat Modes */
+}
+
+
 
 .page{
     width: 78vw;
     background-color: #FFFFFF;
     margin: auto;
+    
 }
 
 .header{
@@ -61,11 +70,13 @@
     font-size: 32px;
     line-height: 20px;
     font-weight: normal;
+    font-family: 'Source Sans Pro',serif;
 }
 
 .intro__conten-text{
     font-size:20px;
     line-height: 20px;
+    font-family: 'Source Sans Pro',serif;
 }
 .intro__content-button{
     width: 507px;
@@ -79,17 +90,67 @@
     border:none;
     box-shadow: 0px 8px 12px rgba(93, 95, 239, 0.12);
     
-    
 }
 .intro__content-button:hover{
     background: linear-gradient(173.83deg, #5D5FEF 45.97%, rgba(112, 114, 247, 0.8) 101.07%);
+    /* transition: background 1s linear 5s; */
 }
 .intro__content-button:active{
     background: white;
     color: #5D5FEF;
+    
 }
 
 .intro__avatar{
     padding-left: 10px;
     padding-top: 5%;
+}
+
+.about-me{
+    padding-top: 10%;
+}
+
+.about-me__title{
+    font-family: 'Bitter', serif;
+    font-size: 58px;
+
+}
+.about-me__text{
+    font-family: 'Source Sans Pro',serif;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+.about-me__skill-text{
+    font-family: 'Source Sans Pro',serif;
+    font-size: 29px;
+}
+.about-me__list1{
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    list-style-image: url('./images/entypo_code.png');
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro',serif;
+    
+}
+/* .about-me__list1:before{
+    content: url('./images/entypo_code.png');
+
+} */
+
+.about-me__list2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Source Sans Pro',serif;
+    list-style-image: url('./images/entypo_code.png');
+    text-decoration: none;
+    padding: 0;
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 1%;
 }
