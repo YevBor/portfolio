@@ -16,9 +16,9 @@
 
 
 .page{
-    width: 78vw;
+    /* width: 78vw;
+    margin: 0 auto; */
     background-color: #FFFFFF;
-    margin: auto;
     
 }
 
@@ -26,6 +26,8 @@
     margin-top: 1%;
     font-size: 18px;
     font-weight: 400;
+    width: 78vw;
+    margin: 0 auto;
     
 }
 
@@ -58,6 +60,8 @@
     display:flex;
     justify-content: space-between;
     margin-top: 4%;
+    width: 78vw;
+    margin: 0 auto;
 }
 
 .intro__content-title{
@@ -108,11 +112,14 @@
 
 .about-me{
     padding-top: 10%;
+    width: 78vw;
+    margin: 0 auto;
 }
 
 .about-me__title{
     font-family: 'Bitter', serif;
     font-size: 58px;
+    font-weight: 400;
 
 }
 .about-me__text{
@@ -154,3 +161,156 @@
     margin: 0 auto;
     padding-top: 1%;
 }
+
+.project__title{
+    font-family: 'Bitter',serif;
+    font-weight: 400;
+    font-size: 56px;
+    
+}
+.project__card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.project__card-content{
+    width: 40vw;
+}
+
+.project__card-content-title{
+    font-family: 'Bitter',serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.project__card-content-description{
+font-family: 'Source Sans Pro',serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 36px;
+}
+
+.project__card-content-button{
+
+background-color: #5D5FEF;
+color:#FFFFFF;
+border: none;
+box-shadow: 0px 8px 12px rgba(93, 95, 239, 0.12);
+border-radius: 4px;
+width: 153px;
+height: 77px;
+font-family: 'Bitter', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+}
+
+.project__card-image{
+    padding-right: 10%;
+
+}
+
+.projects{
+    margin-top: 142px;
+    width: 78vw;
+    margin: 0 auto;
+}
+
+.form__contact-info{
+    display: flex;
+    border: none;
+    padding: 0;
+    /* justify-content: center; */
+}
+
+.form__contact-name{
+    display: flex;
+    flex-direction: column;
+}
+.form__contact-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__contact-text{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.contact__title{
+font-family: 'Bitter',serif;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 67px;
+margin: 0;
+}
+.contact__description{
+font-family: 'Source Sans Pro',serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+}
+.form{
+    font-family: 'Source Sans Pro',serif;
+    color: #FFFFFF;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 200px;
+    padding-top:100px;
+  
+}
+
+.form__contact-name-input{
+    width: 500px;
+    height: 36px;
+    margin-right: 30px;
+    border: none;
+}
+
+.form__contact-name-input-email{
+    width: 500px;
+    height: 36px;
+    border: none;
+}
+.contact{
+    width: 100vw;
+    background: #5D5FEF;
+    color: #FFFFFF;
+}
+
+.form__contact-text-area{
+    width: 1032px;
+    
+}
+.form__contact-button{
+    align-self: flex-start;
+    width: 153px;
+    height: 77px;
+    background: #FFFFFF;
+    border: 1px solid #0F1B61;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 12px rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    margin-top: 32px;
+    border: none;
+    font-family: 'Bitter',serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  
+}
+
+
+
