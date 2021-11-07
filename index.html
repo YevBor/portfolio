@@ -146,29 +146,29 @@
           </div>
         </section>
         <section class="contact" id="contact">
-          <form class="form">
+          <form class="form" action="https://formsubmit.co/sharepiece@gmail.com" method="POST">
             <h2 class="contact__title">Let's work Together</h2>
             <p class="contact__description">Got a question or proposal, or just want to say hello? Go ahead.</p>
             <fieldset class="form__contact-info">
               <div class="form__contact-name">
                 <label for="name">Your name</label>
-                <input id="name" type="text" class="form__contact-name-input" > 
+                <input id="name" type="text" class="form__contact-name-input" required> 
               </div>
               <div class="form__contact-email">
                 <label for="email">Email address</label>
-                <input id="email" type="email" class="form__contact-name-input-email">
+                <input id="email" type="email" class="form__contact-name-input-email" required>
               </div>
             </fieldset>
             <fieldset class="form__contact-text">
               <label for="message">Your Message</label>
-              <textarea  id="message" cols="20" rows="8" class="form__contact-text-area"></textarea>
+              <textarea  id="message" cols="20" rows="8" class="form__contact-text-area" required></textarea>
             </fieldset>
-            <button type="submit" class="form__contact-button">Submit</button>
-            
+            <button type="submit" class="form__contact-button">Submit</button>            
           </form>
           <p class="contact__privacy">&copy Yevgeniy Borisovsky 2021</p>
         </section>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
