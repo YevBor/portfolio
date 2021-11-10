@@ -1,0 +1,13 @@
+.project__card-content-button {
+    background-color: #5d5fef;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0px 8px 12px rgba(93, 95, 239, 0.12);
+    border-radius: 4px;
+    width: 153px;
+    height: 77px;
+    font-family: "Bitter", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  }

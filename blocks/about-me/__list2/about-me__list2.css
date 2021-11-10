@@ -1,0 +1,12 @@
+.about-me__list2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Source Sans Pro',serif;
+    list-style-image: url('../../../images/entypo_code.png');
+    text-decoration: none;
+    padding: 0;
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 1%;
+}

@@ -1,0 +1,4 @@
+.form__contact-email {
+    display: flex;
+    flex-direction: column;
+  }

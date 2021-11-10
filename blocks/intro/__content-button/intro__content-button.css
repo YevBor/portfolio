@@ -1,0 +1,22 @@
+.intro__content-button{
+    width: 507px;
+    height: 78px;
+    background-color: #5D5FEF;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 0px 8px 12px rgba(93, 95, 239, 0.12);
+    
+}
+
+.intro__content-button:hover{
+    background: linear-gradient(173.83deg, #5D5FEF 45.97%, rgba(112, 114, 247, 0.8) 101.07%);
+}
+
+.intro__content-button:active{
+    background: white;
+    color: #5D5FEF;  
+}
