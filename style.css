@@ -5,6 +5,7 @@
 @import url(./blocks/header/__button-item/header__button-item.css);
 @import url(./blocks/header/__button-item/_padding/header__button-item_padding.css);
 @import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__avatar/_image/intro__avatar_image.css);
 @import url(./blocks/intro/__content-title/intro__content-title.css);
 @import url(./blocks/intro/__content-subtitle/intro__content-subtitle.css);
 @import url(./blocks/intro/__conten-text/intro__conten-text.css);
