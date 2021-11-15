@@ -14,7 +14,7 @@
     .intro{
         justify-content: center;
         flex-wrap: wrap-reverse;
-        /* text-align: center; */
+        text-align: center;
         
     }
     

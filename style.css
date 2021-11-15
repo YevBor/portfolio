@@ -39,6 +39,10 @@
 @import url(./blocks/form/__contact-privacy/form__contact-privacy.css);
 @import url(./blocks/contact/contact.css);
 
+/* * {
+  box-sizing: border-box;
+} */
+
 
 
 /* bitter-regular - latin */
