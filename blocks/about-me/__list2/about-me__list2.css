@@ -9,4 +9,5 @@
     width: 50vw;
     margin: 0 auto;
     padding-top: 1%;
+    flex-wrap: wrap;
 }

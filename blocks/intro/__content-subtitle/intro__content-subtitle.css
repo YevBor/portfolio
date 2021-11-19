@@ -4,3 +4,18 @@
     font-weight: normal;
     font-family: 'Source Sans Pro',serif;
 }
+
+@media screen and (max-width:455px){
+    .intro__content-subtitle{
+        font-size: 25px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro__content-subtitle{
+        font-size: 17px;
+        line-height: 10px;
+    }
+    
+}
