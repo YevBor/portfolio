@@ -2,5 +2,12 @@
     display: flex;
     border: none;
     padding: 0;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 850px){
+    .form__contact-info{
+      display: block;
+    }
   }
   

@@ -3,3 +3,10 @@
     width: 78vw;
     margin: 0 auto;
 }
+
+@media screen and (max-width:620px) {
+    .about-me{
+        width: 100vw;
+    }
+    
+}

@@ -4,4 +4,11 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width:620px) {
+    .project{
+        width: 100vw;
+    }
+    
+}
+
 

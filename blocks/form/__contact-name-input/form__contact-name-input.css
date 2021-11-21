@@ -1,5 +1,11 @@
 .form__contact-name-input {
-    width: 95%;
+    width: 98%;
     height: 36px;
     border: none;
+  }
+
+  @media screen and (max-width: 850px){
+    .form__contact-name-input{
+      width: 100%;
+    }
   }
