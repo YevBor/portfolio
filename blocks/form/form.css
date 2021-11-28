@@ -6,3 +6,8 @@
     padding-bottom: 100px;
     padding-top: 100px;
   }
+  @media screen and (max-width: 850px){
+    .form{
+      width: 90%;
+    }
+  }

@@ -15,3 +15,9 @@
     font-size: 24px;
     line-height: 29px;
   }
+
+  @media screen and (max-width: 850px){
+    .form__contact-button{
+      width: 100%;
+    }
+  }

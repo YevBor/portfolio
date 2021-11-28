@@ -3,3 +3,18 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+@media screen and (max-width:700px) {
+    .header__navigation{
+        display: none;
+    }   
+}
+
+
+/* @media screen and (max-width:700px) {
+    .header__navigation{
+        display: none;
+    }
+    
+} */
