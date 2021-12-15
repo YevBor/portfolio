@@ -11,18 +11,9 @@ hamburgerBtn.addEventListener('click', e =>{
     hamburgerBtn.classList.toggle("is-active")
     hamburgerBtn.nextElementSibling.classList.toggle("menu__content_active")
     overlay.classList.toggle('overlay');
-    backContent.style.height = "30%"
+    backContent.style.height = "31%"
 })
 
 
-/* Open when someone clicks on the span element */
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-  
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
 
 
