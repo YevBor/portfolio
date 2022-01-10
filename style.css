@@ -67,17 +67,13 @@
 }
 
 
-.menu{
-  /* background-color:white;
-  width: 100%;
-  height: 30%; */
+/* .menu{
+
   display: none;
-  /* position: relative; */
-  margin: 0px 0px;
-  
-  
-  
-}
+  margin: 0px 0px; 
+} */
+
+/* 
 .menu__button-items{
   display: block;
   text-align: center;
@@ -91,41 +87,37 @@
 
 .header__hamburger-menu{
   background-color:white;
-  /* position: absolute; */
   width: 100%;
   height: 0%;
   transition: 0.5s;
   padding-top:1%;
   border-radius: 0 0 3% 3%;
-}
+} */
 
-.menu__content{
+/* .menu__content{
   display: none;
   width: 100vw;
-  /* background-color:white;
-  width: 100%;
-  height: 30%; */
- 
+
 }
 .menu__content_active{
   display: block;
-  /* position:absolute; */
+
   
-}
-.overlay{
+} */
+/* .overlay{
   position:fixed;
   background-color: rgba(0,0,0, 0.5);
   width: 100%;
   height: 100%;
   z-index: 1; 
 
-}
-.hamburger{
+} */
+/* .hamburger{
   margin-left: 15px;
   margin-top: 15px;
-}
+} */
 
-.hamburger .line{
+/* .hamburger .line{
   width: 34px;
   height: 3px;
   background-color: black;
@@ -135,8 +127,8 @@
 }
 .hamburger:hover{
   cursor: pointer;
-}
-.menu__button-item{
+} */
+/* .menu__button-item{
   text-decoration: none;
   color: black;
   padding-bottom: 5px;
@@ -160,25 +152,23 @@
   -ms-transform: translateY(-13px) rotate(-45deg);
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg);
-}
+} */
 
-@media screen and (max-width:700px) {
+/* @media screen and (max-width:700px) {
   .menu{
       display: block;
   }   
-}
-
-@media screen and (max-width:700px) {
+} */ 
+/* @media screen and (max-width:700px) {
   .header{
     margin-top: 0;
-    font-size: 18px;
+    /* font-size: 18px;
     font-weight: 400;
-    /* width: 78vw; */
-    margin: 0 ;
+    width: 78vw; */
+    /*margin: 0 ;
     
   }   
-}
-
+}  */
 
 
 /* .header{
@@ -505,9 +495,6 @@ line-height: 36px;
   cursor: pointer;
 }
 
-.closeIcon {
-  display: none;
-}
 
 .menu {
   position: fixed;
@@ -523,6 +510,8 @@ line-height: 36px;
   list-style: none;
   padding-top: 4rem;
   text-align: center;
+  margin: 0px 0px; 
+  padding-left: 0;
 }
 
 .showMenu {
@@ -533,10 +522,14 @@ line-height: 36px;
   color:white;
   background: black;
   outline: none;
+  font-size: 36px;
+  display: none;
 
 }
-
-
+.menuIcon{
+  background: transparent;
+  font-size: 36px;
+}
 @media screen and (max-width:700px) {
   .hamburger{
       display: block;
