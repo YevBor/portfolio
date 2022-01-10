@@ -39,6 +39,10 @@
 @import url(./blocks/form/__contact-privacy/form__contact-privacy.css);
 @import url(./blocks/contact/contact.css);
 
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 /* * {
   box-sizing: border-box;
 } */
@@ -70,6 +74,8 @@
   display: none;
   /* position: relative; */
   margin: 0px 0px;
+  
+  
   
 }
 .menu__button-items{
@@ -167,7 +173,7 @@
     margin-top: 0;
     font-size: 18px;
     font-weight: 400;
-    width: 78vw;
+    /* width: 78vw; */
     margin: 0 ;
     
   }   
@@ -469,3 +475,70 @@ line-height: 36px;
 
 /* The Overlay (background) */
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  display: none;
+  position: relative;
+  z-index: 100;
+  top: 1rem;
+  left: 1rem;
+  padding: 0;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.closeIcon{
+  color:white;
+  background: black;
+  outline: none;
+
+}
+
+
+@media screen and (max-width:700px) {
+  .hamburger{
+      display: block;
+  }   
+}
