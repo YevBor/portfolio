@@ -4,3 +4,10 @@
     font-weight: 400;
 
 }
+
+@media screen and (max-width: 1220px) {
+    .about-me__title{
+        font-size: 6vw;
+    }
+    
+}

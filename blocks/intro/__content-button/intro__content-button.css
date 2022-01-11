@@ -20,3 +20,10 @@
     background: white;
     color: #5D5FEF;  
 }
+
+@media screen and (max-width:1230px){
+    .intro__content-button{
+        font-size: 4vw;
+        height:15%;
+    }
+}

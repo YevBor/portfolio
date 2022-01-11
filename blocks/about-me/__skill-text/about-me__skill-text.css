@@ -2,3 +2,11 @@
     font-family: 'Source Sans Pro',serif;
     font-size: 29px;
 }
+
+
+@media screen and (max-width: 1220px) {
+    .about-me__skill-text{
+        font-size: 4vw;
+    }
+    
+}

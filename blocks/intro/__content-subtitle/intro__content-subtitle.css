@@ -12,6 +12,14 @@
     }
 }
 
+@media screen and (max-width:410px){
+    .intro__content-subtitle{
+        font-size: 20px;
+        line-height: 13px;
+    }
+}
+
+
 @media screen and (max-width:320px){
     .intro__content-subtitle{
         font-size: 17px;
