@@ -4,9 +4,11 @@ const overlay = document.querySelector('.menu');
 const backContent = document.querySelector('.header__hamburger-menu');
 
 
+
 contactBtn.addEventListener('click', e =>{
     location.href='#contact';
-})
+}
+    )
 hamburgerBtn.addEventListener('click', e =>{
     hamburgerBtn.classList.toggle("is-active")
     hamburgerBtn.nextElementSibling.classList.toggle("menu__content_active")
